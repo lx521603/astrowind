@@ -31,19 +31,19 @@ export const headerData = {
           href: getPermalink('/#features'),
         },
         {
-          text: 'Services',
+          text: '服务',
           href: getPermalink('/services'),
         },
         {
-          text: 'Pricing',
+          text: '价格',
           href: getPermalink('/pricing'),
         },
         {
-          text: 'About us',
+          text: '关于我',
           href: getPermalink('/about'),
         },
         {
-          text: 'Contact',
+          text: '联系',
           href: getPermalink('/contact'),
         },
         {
@@ -86,54 +86,54 @@ export const headerData = {
       ],
     },
     {
-      text: 'Blog',
+      text: '博客',
       links: [
         {
-          text: 'Blog List',
+          text: '博客列表',
           href: getBlogPermalink(),
         },
         {
-          text: 'Article',
+          text: '文章',
           href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
         },
         {
-          text: 'Article (with MDX)',
+          text: '文章 (with MDX)',
           href: getPermalink('markdown-elements-demo-post', 'post'),
         },
         {
-          text: 'Category Page',
+          text: '分类页',
           href: getPermalink('tutorials', 'category'),
         },
         {
-          text: 'Tag Page',
+          text: '标签页',
           href: getPermalink('astro', 'tag'),
         },
       ],
     },
     {
-      text: 'Widgets',
+      text: '小部件',
       href: '#',
     },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/arthelokyo/astrowind', target: '_blank' }],
+  actions: [{ text: '下载', href: 'https://github.com/arthelokyo/astrowind', target: '_blank' }],
 };
 
 export const footerData = {
   links: [
     {
-      title: 'Product',
+      title: '产品',
       links: [
         { text: 'Features', href: '#' },
         { text: 'Security', href: '#' },
         { text: 'Team', href: '#' },
         { text: 'Enterprise', href: '#' },
         { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Resources', href: '#' },
+        { text: '价格', href: '#' },
+        { text: '资源', href: '#' },
       ],
     },
     {
-      title: 'Platform',
+      title: '平台',
       links: [
         { text: 'Developer API', href: '#' },
         { text: 'Partners', href: '#' },
@@ -143,7 +143,7 @@ export const footerData = {
       ],
     },
     {
-      title: 'Support',
+      title: '支持',
       links: [
         { text: 'Docs', href: '#' },
         { text: 'Community Forum', href: '#' },
@@ -153,7 +153,7 @@ export const footerData = {
       ],
     },
     {
-      title: 'Company',
+      title: '公司',
       links: [
         { text: 'About', href: '#' },
         { text: 'Blog', href: '#' },
@@ -177,6 +177,6 @@ export const footerData = {
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/arthelokyo/astrowind' },
   ],
   footNote: `
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://github.com/arthelokyo"> Arthelokyo</a> · All rights reserved.
+    Made by <a class="text-blue-600 underline dark:text-muted" href="https://github.com/arthelokyo"> Rise</a> · All rights reserved.
   `,
 };
