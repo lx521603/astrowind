@@ -11,7 +11,7 @@ metadata:
   title:
     default: AstroWind
     template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: "\U0001F680 在这个空间，我记录我的发现与灵感，也希望分享给同样热爱探索、喜欢尝鲜的朋友。每一次点击、每一次出发，都是一场新的探险。"
   robots:
     index: true
     follow: true
@@ -28,7 +28,7 @@ metadata:
     cardType: summary_large_image
 
 i18n:
-  language: en
+  language: zh
   textDirection: ltr
 
 apps:
