@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: Rise
+  site: 'https://rise.re'
   base: '/'
   trailingSlash: false
 
@@ -16,15 +16,15 @@ metadata:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Rise
     images:
       - url: '~/assets/images/default.png'
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: '@arthelokyo'
-    site: '@arthelokyo'
+    handle: '@oniyt1980'
+    site: '@oniyt1980'
     cardType: summary_large_image
 
 i18n:
