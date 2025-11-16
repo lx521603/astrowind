@@ -56,7 +56,7 @@ export const headerData = {
         },
       ],
     },*/
-    {
+   /* {
       text: 'Landing',
       links: [
         {
@@ -84,9 +84,9 @@ export const headerData = {
           href: getPermalink('/landing/subscription'),
         },
       ],
-    },
+    },*/
     {
-      text: '博客',
+      /*text: '博客',*/
       links: [
         {
           text: 'Features (Anchor Link)',
