@@ -89,7 +89,7 @@ export const headerData = {
       /*text: '博客',*/
       links: [
         {
-          text: 'Features (Anchor Link)',
+          text: '特色',
           href: getPermalink('/#features'),
         },
         {
