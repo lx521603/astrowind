@@ -2,7 +2,7 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 
 export const headerData = {
   links: [
-    {
+    /*{
       text: '首页',
       links: [
         {
@@ -22,7 +22,7 @@ export const headerData = {
           href: getPermalink('/homes/personal'),
         },
       ],
-    },
+    },*/
     {
       text: 'Pages',
       links: [
@@ -50,10 +50,10 @@ export const headerData = {
           text: 'Terms',
           href: getPermalink('/terms'),
         },
-        {
+        /*{
           text: 'Privacy policy',
           href: getPermalink('/privacy'),
-        },
+        },*/
       ],
     },
     {
@@ -110,12 +110,12 @@ export const headerData = {
         },
       ],
     },
-    {
+    /*{
       text: '小部件',
       href: '#',
-    },
+    },*/
   ],
-  actions: [{ text: '下载', href: 'https://github.com/arthelokyo/astrowind', target: '_blank' }],
+  actions: [{ text: '联系', href: 'https://viv.yt', target: '_blank' }],
 };
 
 export const footerData = {
@@ -174,9 +174,9 @@ export const footerData = {
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/' },
+   /* { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/' },*/
   ],
   footNote: `
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://github.com/arthelokyo"> Rise</a> · All rights reserved.
+    Made by <a class="text-blue-600 underline dark:text-muted" href="https://rise.re"> Rise</a> · All rights reserved.
   `,
 };
