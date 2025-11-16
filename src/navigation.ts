@@ -23,7 +23,7 @@ export const headerData = {
         },
       ],
     },*/
-    {
+   /* {
       text: 'Pages',
       links: [
         {
@@ -50,12 +50,12 @@ export const headerData = {
           text: 'Terms',
           href: getPermalink('/terms'),
         },
-        /*{
+        {
           text: 'Privacy policy',
           href: getPermalink('/privacy'),
-        },*/
+        },
       ],
-    },
+    },*/
     {
       text: 'Landing',
       links: [
@@ -88,6 +88,26 @@ export const headerData = {
     {
       text: '博客',
       links: [
+        {
+          text: 'Features (Anchor Link)',
+          href: getPermalink('/#features'),
+        },
+        {
+          text: '服务',
+          href: getPermalink('/services'),
+        },
+        {
+          text: '价格',
+          href: getPermalink('/pricing'),
+        },
+        {
+          text: '关于我',
+          href: getPermalink('/about'),
+        },
+        {
+          text: '联系',
+          href: getPermalink('/contact'),
+        },
         {
           text: '博客列表',
           href: getBlogPermalink(),
