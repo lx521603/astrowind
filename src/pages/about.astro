@@ -5,6 +5,8 @@ import Hero from '~/components/widgets/Hero.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import Steps2 from '~/components/widgets/Steps2.astro';
 import Layout from '~/layouts/PageLayout.astro';
+import qrcodeWechat from '../assets/images/2025-11-17 20-55-48.png';
+import qrcodedy from '../assets/images/2025-11-17 20-56-25.png';
 
 const metadata = {
   title: '关于我',
@@ -206,18 +208,8 @@ const metadata = {
     tagline="联系我们"
     columns={2}
     items={[
-      {
-        title: 'Chat with us',
-        description:
-          'Integer luctus laoreet libero, auctor varius purus rutrum sit amet. Ut nec molestie nisi, quis eleifend mi.',
-        icon: 'tabler:messages',
-      },
-      {
-        title: 'Call us',
-        description:
-          'Mauris faucibus finibus orci, in posuere elit viverra non. In hac habitasse platea dictumst. Cras lobortis metus a hendrerit congue.',
-        icon: 'tabler:headset',
-      },
+      { title: '微信', image: qrcodeWechat },
+      { title: '抖音', image: qrcodedy },
     ]}
   />
 </Layout>
