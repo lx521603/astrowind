@@ -108,7 +108,7 @@ export const headerData = {
           text: '联系',
           href: getPermalink('/contact'),
         },
-        {
+      /*  {
           text: '博客列表',
           href: getBlogPermalink(),
         },
@@ -127,7 +127,7 @@ export const headerData = {
         {
           text: '标签页',
           href: getPermalink('astro', 'tag'),
-        },
+        },*/
       ],
     },
     /*{
